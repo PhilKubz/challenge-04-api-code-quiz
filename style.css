@@ -1,0 +1,145 @@
+/* ------- Global Properties ------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* for debugging */
+    border: 1px solid red;
+
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+p {
+    font-size: 1.3em;
+    color: purple;
+}
+
+button {
+    outline: none;
+    color: purple;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+/* ------- Outer Container ------- */
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/* ------- Top Bar Container ------- */
+
+.top-bar p {
+    float: right;
+}
+
+
+
+/* ------- Inner Container ------- */
+
+.inner-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-container p {
+    color: black;
+}
+
+/* ------- Header / Quiz Intro ------- */
+
+.quiz-intro,
+main {
+    margin-bottom: 30vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightgray;
+}
+
+.quiz-intro button {
+    display: block;
+    margin: auto;
+}
+
+/* ------- Main Quiz Content ------- */
+
+main {
+    display: none;
+}
+
+
+/* -------- Question Screen --------- */
+
+.question-section {
+    display: none;
+}
+
+
+
+/* -------- Quiz Finish --------- */
+
+.quiz-finish-screen {
+    display: none;
+}
+
+/* -------- highscores screen--------- */
+
+.highscores-screen {
+    display: none;
+}
+
+.highscores-screen ol {
+    max-height: 200px;
+}
+
+.highscores-screen ol:hover {
+    overflow-y: scroll;
+}
+
+/* header {
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bolder; 
+}
+
+
+p {
+    font-weight: normal;
+    padding: 8px;
+    font-size:16px;
+}
+
+.start-button {
+    background-color: blueviolet;
+    align-self: center;
+    padding: 4px 8px;
+    border: 5px;
+
+}
+*/
